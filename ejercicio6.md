@@ -10,7 +10,7 @@
 
 ### Propuesta 1: Ingesta en tiempo real y consumo de alertas sísmicas del SSN
 - **Autor / Asignado:** Garcia Verduzco Fernando
-- **Issue en GitHub:** [Ver Issue #1](https://github.com/jcmj3256-collab/Practica_2/issues/1)
+- **Issue en GitHub:** [Ver Issue #2](https://github.com/jcmj3256-collab/Practica_2/issues/2)
 
 1. **Título breve y problema que atiende:**  
    *Ingesta en tiempo real y consumo de alertas sísmicas del SSN.*  
@@ -29,7 +29,7 @@
 
 ### Propuesta 2: Desagregación geoespacial del impacto sísmico a nivel municipal
 - **Autor / Asignado:** Garcia Verduzco Fernando
-- **Issue en GitHub:** [Ver Issue #2](https://github.com/jcmj3256-collab/Practica_2/issues/2)
+- **Issue en GitHub:** [Ver Issue #3](https://github.com/jcmj3256-collab/Practica_2/issues/3)
 
 1. **Título breve y problema que atiende:**  
    *Desagregación geoespacial del impacto sísmico a nivel municipal.*  
@@ -49,7 +49,7 @@
 
 ### Propuesta 3: Módulo de simulación predictiva de pérdidas económicas e infraestructura
 - **Autor / Asignado:** Garcia Verduzco Fernando
-- **Issue en GitHub:** [Ver Issue #3](https://github.com/jcmj3256-collab/Practica_2/issues/3)
+- **Issue en GitHub:** [Ver Issue #4](https://github.com/jcmj3256-collab/Practica_2/issues/4)
 
 1. **Título breve y problema que atiende:**  
    *Módulo de simulación predictiva de pérdidas económicas e infraestructura mediante Machine Learning.*  
