@@ -51,8 +51,7 @@ Donde han ocurrido sismo de cierta magnitud,
 mapas que muestran que lugares son los más propensos a sufrir sismos, lugares
 densamente poblados, entre otros filtros como periodo de tiempo.
 
-## 5. Qué limitaciones reconocen los autores y
-qué trabajo futuro proponen.
+## 5. Qué limitaciones reconocen los autores y qué trabajo futuro proponen.
 
 La mayor limitación propuesta por los autores es que este tipo de fenómenos no se pueden predecir, a diferencia del clima o
 la temperatura durante el día. En el futuro se podría habilitar visualizaciones en 3D, otras fuentes de datos oficiales y un sistema de alerta temprana. 
