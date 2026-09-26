@@ -79,6 +79,7 @@ En qué se apoya:
 Trabajo futuro declarado explícitamente por los autores: "como trabajo futuro se plantea habilitar visualizaciones en 3D".
 
 Para implementarlo se requiere integrar una librería de renderizado 3D (como Three.js) en el frontend y adaptar el backend para exponer las coordenadas de profundidad en el formato que esa librería necesita.
+
 ---
 ## Propuesta 2: Historial de daños reportados por sismo
 
@@ -93,6 +94,7 @@ Se crea una nueva entidad débil DAÑO_REPORTADO (dependencia de existencia resp
 Una necesidad identificada por el equipo: el artículo no menciona esta limitación explícitamente, pero al revisar el modelo de datos del Ejercicio 5 notamos que no existe forma de registrar el impacto real de un sismo más allá de sus datos técnicos, lo cual sería una adición valiosa usando datos abiertos del CENAPRED.
 
 Para implementarlo se requieren los reportes del CENAPRED que no siempre están estructurados de forma consistente, por lo que se necesitaría trabajo adicional de limpieza en el proceso ETL.
+
 ---
 ## Propuesta 3: Guías de prevención por zona
 
