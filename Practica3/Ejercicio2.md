@@ -1,8 +1,4 @@
-# Inventario del modelo EER: Clínica Veterinaria
-
-**Práctica 3, Ejercicio 2.** Fuente: el EER final del equipo y el `Ejercicio4.md` de la Práctica 2.
-
-
+# Ejercicio 2: Inventario del modelo EER: Clínica Veterinaria
 ---
 
 ## 1. Entidades fuertes
@@ -74,9 +70,7 @@ Ninguna. El `Ejercicio4.md` de la Práctica 2 proponía una agregación (Atiende
 
 ---
 
-## 8. Preguntas antes de transformar
-
-> Borrador: reescríbelo con tus palabras antes de entregar.
+## 7. Preguntas antes de transformar
 
 ### 1. ¿Qué elementos van a requerir una tabla adicional?
 
@@ -102,10 +96,10 @@ Las relaciones no necesitan tabla propia: todas son 1:N y se resuelven con una c
 | `Dermatologo.codigo_veterinario`, `Cirujano.codigo_veterinario` | Veterinario | 9 (jerarquía); también es PK | No |
 
 ### 3. ¿Qué decisión tendrás que tomar en cada jerarquía?
-
-Las estrategias A, B y C son las de la Regla 9 del Ejercicio 5 de la Práctica 3. En las dos jerarquías hay que elegir una y justificarla. La estrategia C no sirve en ninguna, porque las dos son **parciales**: quedarían mascotas y veterinarios sin tabla donde registrarse.
-
-| Jerarquía | Clasificación | Estrategia | Justificación |
-|---|---|---|---|
-| Mascota → Gato, Perro | Disjunta, parcial | **A** | La tabla de la Práctica 3 indica que B conviene con pocos atributos propios, y cada subtipo tiene uno. ⚠ Escribe aquí por qué eliges A. Otras especies (conejos, aves) quedan solo en Mascota. Que una mascota no sea Gato y Perro a la vez no lo garantizan la PK ni la FK, así que se documenta como limitación |
-| Veterinario → Dermatólogo, Cirujano | Solapada, parcial | **A** | Un veterinario puede ser ambos. Con B haría falta una columna o bandera por especialidad, en lugar de un solo discriminador. Con A aparece en una tabla, en las dos o en ninguna |
+ 
+Las estrategias A, B y C son las de la Regla 9 del Ejercicio 5 de la Práctica 3. En las dos jerarquías hay que elegir una y justificarla. La estrategia C no sirve en ninguna, porque las dos son **parciales**: quedarían mascotas y veterinarios sin tabla donde registrarse. Se eligió **B** en ambas.
+ 
+| Jerarquía | Clasificación | Estrategia | Cómo queda | Justificación |
+|---|---|---|---|---|
+| Mascota → Gato, Perro | Disjunta, parcial | **B** | Se agregan `color_pelaje` y `peso_ideal` a Mascota. El discriminador es `especie` | Cada subtipo tiene un solo atributo propio, y B conviene con pocos atributos propios. Como cada mascota tiene una sola especie, no puede ser Gato y Perro a la vez. Otras especies usan la misma tabla con esas columnas en NULL. Dos `CHECK` impiden llenar `color_pelaje` si no es gato o `peso_ideal` si no es perro. Limitación: `especie` es texto libre, así que "gato" y "Gato" serían distintos |
+| Veterinario → Dermatólogo, Cirujano | Solapada, parcial | **B** | Se agregan `es_dermatologo`, `es_cirujano`, `num_pacientes` y `num_cirugias` a Veterinario | Un solo discriminador no sirve porque puede tener ambas especialidades, así que se usa una bandera booleana por especialidad. Las dos en FALSE es un veterinario general. Cada atributo propio solo se llena si su bandera está activa (`CHECK`) |
