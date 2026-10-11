@@ -63,30 +63,14 @@ No hay relaciones muchos a muchos ni uno a uno.
 | Tipo | Atributos |
 |---|---|
 | Compuestos | Nombre_Completo (en Dueño y en Veterinario) = nombre + apellidos |
-| Multivaluados | Ninguno en el diagrama final. ⚠ **Alergias** salió en la entrevista y en los requerimientos de la Práctica 1, pero no está en el EER. Confirma si se omite a propósito (por ejemplo, porque vive en `Notas`) |
-| Derivados | ⚠ **Edad** (cambia con el tiempo y se podría calcular a partir de una fecha de nacimiento). En el diagrama está como atributo simple; decide si se queda almacenada o se dibuja punteada |
+| Multivaluados y Derivados| No se modeló ningún atributo multivaluado. Las alergias se registran como texto en Notas de Mascota, porque son una característica permanente de la mascota y el sistema no necesita consultarlas por separado. La edad se guarda como atributo simple, porque en mascotas callejeras o rescatadas solo se conoce de forma aproximada y no se tiene fecha de nacimiento; se interpreta como la edad al momento del registro. En una versión futura, las alergias podrían ser una tabla propia y la edad podría derivarse de una fecha de nacimiento. |
+
 
 ---
 
 ## 6. Relaciones ternarias o de orden superior
 
 Ninguna. El `Ejercicio4.md` de la Práctica 2 proponía una agregación (Atiende–Cita → Tratamiento), pero no estaba dibujada y se descartó: Tratamiento depende de Cita, y como cada cita tiene un solo veterinario, el tratamiento ya queda ligado a "ese veterinario en esa cita".
-
----
-
-## 7. Cambios respecto al EER de la Práctica 2 (para el README)
-
-El Ejercicio 2 pide anotar qué cambió y por qué. La columna "Por qué" es una propuesta: ajústala con tus palabras.
-
-| Cambio | Por qué |
-|---|---|
-| Tratamiento ahora depende de **Cita** (relación **Da**). Antes el diagrama lo colgaba de Mascota con "Recibe", aunque el texto decía Cita | El diagrama y el texto se contradecían. Un tratamiento se receta dentro de una consulta |
-| Se descartó la **agregación** del texto | No estaba dibujada y no hace falta, porque cada cita tiene un solo veterinario |
-| La relación Mascota–Cita pasó de "Tiene" a **Agenda** | Había dos relaciones llamadas "Tiene" |
-| Fecha, Fecha_Tratamiento y Fecha_Vencimiento ya no se descomponen en Día, Mes y Año | Se guardan como una sola fecha, más simple para consultar |
-| `num_certificado` pasó a **Veterinario**. Dermatólogo ahora tiene `num_pacientes` | ⚠ Escribe aquí tu razón |
-| Atributos de los subtipos: el texto de la Práctica 2 listaba otros (por ejemplo `raza_especifica`, `nivel_actividad` en Perro; `es_domestico` en Gato). El diagrama usa Color_Pelaje, Peso_Ideal, num_pacientes y num_cirugias | ⚠ Escribe aquí tu razón |
-| Se agregaron las **cardinalidades** al diagrama | El EER anterior no las mostraba y el texto sí |
 
 ---
 
