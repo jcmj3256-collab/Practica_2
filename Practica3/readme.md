@@ -36,7 +36,7 @@
    - **Descripción:** Almacén de datos dimensional orientado al análisis geoespacial, temporal y socioeconómico de la sismicidad en México.
 
 ---
-## Cambios respecto al EER de la Práctica 2 (para el README)
+## Cambios respecto al EER de la Práctica 2 
 
 El Ejercicio 2 pide anotar qué cambió y por qué. La columna "Por qué" recoge tus razones; revisa que suenen como tú.
  
