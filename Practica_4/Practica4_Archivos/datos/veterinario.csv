@@ -1,0 +1,21 @@
+codigo_veterinario,nombre,apellidos,num_certificado,es_dermatologo,num_pacientes,es_cirujano,num_cirugias
+1,Iván,"Vázquez Pérez",CED-1000037,f,,t,271
+2,Renata,"Díaz Cruz",CED-1000074,f,,f,
+3,Emilio,"Cruz González",CED-1000111,f,,f,
+4,Renata,"Cruz Ramírez",CED-1000148,f,,f,
+5,Fernanda,"Reyes Cruz",CED-1000185,f,,f,
+6,Valeria,"Morales Morales",CED-1000222,f,,t,99
+7,Ricardo,"Aguilar Ramírez",CED-1000259,t,363,f,
+8,Carlos,"Rodríguez Ruiz",CED-1000296,f,,f,
+9,Elena,"Hernández Ramírez",CED-1000333,t,130,f,
+10,Paola,"Hernández Castillo",CED-1000370,f,,f,
+11,Renata,"Morales Aguilar",CED-1000407,t,390,t,40
+12,Ana,"Ortiz Gutiérrez",CED-1000444,f,,f,
+13,Sergio,"Ruiz Ramírez",CED-1000481,t,186,t,2
+14,Sergio,"Aguilar Flores",CED-1000518,f,,f,
+15,Iván,"López Mendoza",CED-1000555,f,,t,147
+16,Gabriela,"Gutiérrez López",CED-1000592,f,,f,
+17,Jorge,"Jiménez Morales",CED-1000629,t,395,f,
+18,Raúl,"González Reyes",CED-1000666,f,,f,
+19,Ricardo,"Ortiz Martínez",CED-1000703,t,205,t,226
+20,Carlos,"Romero Gutiérrez",CED-1000740,t,363,f,

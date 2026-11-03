@@ -1,0 +1,20 @@
+PS> psql -v ON_ERROR_STOP=1 -f poblar\poblar.sql 2>&1 | Tee-Object evidencias\carga-2-segunda.txt
+>> Cargando dueno
+>> Cargando veterinario
+>> Cargando mascota
+>> Cargando cita
+>> Cargando tratamiento
+
+    tabla    | leídos | insertados | ya existían | rechazados
+-------------+--------+------------+-------------+------------
+ dueno       |    200 |          0 |         200 |          0
+ veterinario |     20 |          0 |          20 |          0
+ mascota     |    400 |          0 |         400 |          0
+ cita        |    800 |          0 |         800 |          0
+ tratamiento |    300 |          0 |         300 |          0
+(5 filas)
+
+ segundos (COPY)
+-----------------
+           0.054
+(1 fila)

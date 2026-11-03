@@ -1,0 +1,401 @@
+codigo_mascota,nombre,especie,raza,edad,sexo,notas,color_pelaje,peso_ideal,codigo_dueno
+1,Phoebe,Perro,"Welsh Corgi, Pembroke",14,H,,,31,65
+2,Maple,Perro,"Poodle, Standard",5,H,,,45,29
+3,Neko,Perro,"Siberian Husky",8,M,,,23,101
+4,Lenny,Perro,"Retriever, Golden",5,H,,,26,49
+5,Sadie,Perro,Shepherd,16,H,,,19,69
+6,Memphis,Perro,"Retriever, Golden",0,H,,,7,176
+7,Maude,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",13,M,,,11,167
+8,Yukon,Perro,"Bulldog, American",12,M,,,32,154
+9,Captain,Perro,"Mixed Breed, Small (under 24 lbs fully grown)",18,M,,,17,158
+10,Junji,Perro,"Shiba Inu",17,M,,,18,49
+11,Maple,Perro,"Welsh Corgi, Pembroke",0,H,,,38,5
+12,"Teva Hase",Perro,"German Shepherd",13,M,,,5,134
+13,Merle,Perro,"American Blue Heeler",2,M,,,3,40
+14,Luca,Perro,"Poodle, Standard",5,M,,,24,41
+15,Maui,Perro,"Catahoula Leopard dog",14,M,,,31,125
+16,Ruxon,Perro,"Terrier, Jack Russell",6,H,,,7,109
+17,Basket,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",6,M,,,9,27
+18,Winnie,Perro,"Terrier, Pit Bull",14,M,,,9,61
+19,Coco,Perro,"Poodle, Miniature",18,M,,,12,93
+20,Archie,Perro,"Retriever, Labrador",5,M,,,19,166
+21,Lancaster,Perro,"Australian Shepherd, Miniature",16,M,,,17,34
+22,Liam,Perro,"Terrier, Fox, Wire",15,M,,,21,20
+23,Dottie,Perro,"Terrier, Fox, Wire",12,H,,,19,186
+24,Frankie,Perro,"Retriever, Chesapeake Bay",18,M,,,36,186
+25,June,Perro,"Poodle, Standard",6,H,,,30,73
+26,Billy,Perro,Bloodhound,9,M,,,36,131
+27,Manfred,Perro,"Dachshund, Miniature Long Haired",16,H,,,11,86
+28,Maggie,Perro,"Poodle, Standard",13,M,,,9,103
+29,Persephone,Perro,Terrier,12,M,,,28,172
+30,Luz,Perro,"Dachshund, Miniature Long Haired",13,H,,,43,199
+31,Molly,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",13,H,,,43,63
+32,Harper,Perro,"Spaniel, Cavalier King Charles",17,H,,,29,105
+33,Bradley,Perro,"Retriever, Labrador",0,M,,,23,38
+34,Spooky,Perro,"Australian Shepherd",7,H,,,44,23
+35,Theo,Perro,"Shih Tzu",15,H,,,23,108
+36,Rowen,Perro,"German Shepherd",1,H,,,15,184
+37,Sunny,Perro,"Cur, Black-Mouth",11,H,,,20,150
+38,"Loti Wallace Jackson Himple",Perro,Greyhound,13,H,,,19,41
+39,Sheila,Perro,"Australian Cattle Dog",9,M,,,16,127
+40,Ori,Perro,"Spaniel, English Cocker",12,H,,,37,93
+41,Josie,Perro,"Retriever, Nova Scotia Duck Tolling",1,M,,,39,132
+42,Shiba,Perro,"Australian Cattle Dog",18,M,,,5,112
+43,Bayla,Perro,Shepherd,3,M,,,44,75
+44,Wookiee,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",7,H,,,22,198
+45,Cooper,Perro,"Retriever, Labrador",6,H,,,13,162
+46,Ruby,Perro,"Retriever, Golden",16,M,,,17,164
+47,Maggie,Perro,"Mixed Breed, Large (over 44 lbs fully grown)",9,H,,,29,24
+48,Lucky,Perro,Xoloitzcuintli,12,H,,,30,99
+49,Kyle,Perro,"Welsh Corgi, Pembroke",11,M,,,5,150
+50,Jack,Perro,Rottweiler,13,H,,,29,159
+51,Inari,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",17,M,,,21,87
+52,Bao,Perro,"Poodle, Toy",3,H,,,43,95
+53,Rocky,Perro,Boxer,16,M,,,17,10
+54,Rita,Perro,"Australian Cattle Dog",7,H,,,3,83
+55,Huckleberry,Perro,"Retriever, Labrador",10,H,,,23,103
+56,Stella,Perro,"Carolina Dog",9,M,,,32,139
+57,Zero,Perro,"Shiba Inu",7,M,,,10,175
+58,Zoe,Perro,"Retriever, Golden",9,H,,,13,91
+59,O'Malley,Perro,Hound,1,M,,,42,188
+60,Kaya,Perro,"Retriever, Labrador",1,H,,,37,136
+61,Leo,Perro,"Great Pyrenees",0,M,,,40,73
+62,Michiko,Perro,"Shiba Inu",12,H,,,43,64
+63,Griffey,Perro,"Retriever, Labrador",12,H,,,33,97
+64,Ellie,Perro,Maltese,14,H,,,8,44
+65,Ty,Perro,"Mixed Breed, Large (over 44 lbs fully grown)",6,M,,,32,30
+66,Mayday!,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",6,M,,,8,91
+67,"Pesto Ravioli Trausch",Perro,"Chihuahua, Short Coat",9,M,,,35,27
+68,Frankie,Perro,"Border Collie",8,H,,,44,95
+69,Banksy,Perro,"Terrier, Yorkshire",4,H,,,45,192
+70,Dwayne,Perro,"Terrier, Pit Bull",17,H,,,36,146
+71,Toby,Perro,"Retriever, Golden",3,H,,,13,44
+72,Adipose,Perro,"Siberian Husky",4,M,,,16,107
+73,Zoey,Perro,"Bulldog, French",2,M,,,10,198
+74,Georgie,Perro,"Schnauzer, Miniature",13,H,,,19,52
+75,Iggy,Perro,"Terrier, American Pit Bull",4,M,,,40,85
+76,Memphis,Perro,"Australian Shepherd, Miniature",11,H,,,20,44
+77,Bo,Perro,"Great Dane",9,H,,,8,147
+78,River,Perro,"Silken Windhound",18,M,,,42,142
+79,Copper,Perro,"Retriever, Labrador",11,H,,,25,4
+80,Maggie,Perro,Brittany,10,H,,,36,199
+81,"Agnes / Aggie",Perro,"Australian Shepherd",9,M,,,21,120
+82,Max,Perro,"Australian Shepherd",10,M,,,25,48
+83,Chester,Perro,"Spaniel, Cavalier King Charles",9,H,,,5,154
+84,Charlie,Perro,Havanese,8,M,,,32,160
+85,Charlie,Perro,"Poodle, Standard",16,M,,,23,136
+86,Charlie,Perro,"Griffon, Wirehaired Pointing",11,H,,,29,117
+87,Arion,Perro,"Dachshund, Miniature Smooth Haired",14,M,,,38,42
+88,Persephone,Perro,"Poodle, Standard",5,H,,,18,54
+89,Annie,Perro,"Retriever, Labrador",4,H,,,16,38
+90,Joey,Perro,"Siberian Husky",0,M,,,23,7
+91,Duncan,Perro,"Schnauzer, Miniature",18,M,,,38,123
+92,Sweetie,Perro,"Retriever, Golden",7,H,,,23,93
+93,Moose,Perro,"Bernese Mountain Dog",6,M,,,33,154
+94,Beatrix,Perro,"Terrier, Cairn",12,M,,,19,29
+95,Odin,Perro,"Terrier, American Staffordshire",3,M,,,31,90
+96,Cedar,Perro,Terrier,12,H,,,26,171
+97,"Princess Popcorn",Perro,"Chihuahua, Short Coat",8,M,,,35,137
+98,Loki,Perro,Terrier,13,M,,,35,173
+99,Barclay,Perro,"Terrier, West Highland White",9,M,,,15,123
+100,"Luna Lion King",Perro,"Shih Tzu",14,H,,,9,106
+101,Lola,Perro,"Shih Tzu",16,H,,,32,32
+102,"Sunny Bee",Perro,"Retriever, Golden",0,H,,,10,140
+103,Violet,Perro,"Mixed Breed, Large (over 44 lbs fully grown)",18,M,,,31,19
+104,Rosie,Perro,Mix,3,M,,,17,7
+105,Skye,Perro,"Korean Jindo",12,M,,,7,41
+106,Jasper,Perro,"Australian Shepherd, Miniature",9,M,,,33,174
+107,Ghilli,Perro,"Terrier, Cairn",12,M,,,23,150
+108,Finn,Perro,"Mixed Breed, Medium (up to 44 lbs fully grown)",6,M,,,32,44
+109,Coco,Perro,"Japanese Spitz",16,H,,,12,32
+110,Mavis,Perro,"Retriever, Labrador",7,H,,,23,101
+111,Rosie,Perro,"Shih Tzu",16,M,,,38,187
+112,Wilma,Perro,"Border Collie",18,H,,,4,186
+113,Leah,Perro,"Australian Cattle Dog",17,H,,,44,103
+114,Winnie,Perro,"Retriever, Labrador",14,M,,,10,162
+115,Frasier,Perro,"Spaniel, Cavalier King Charles",3,M,,,24,161
+116,Bodhi,Perro,"Rhodesian Ridgeback",3,M,,,26,74
+117,Mlima,Perro,"Retriever, Labrador",16,M,,,42,127
+118,"Castiel Raye",Perro,"Australian Shepherd",17,H,,,8,110
+119,Harper,Perro,Basenji,3,M,,,39,91
+120,Cooper,Perro,Rottweiler,17,H,,,18,128
+121,Peaches,Perro,"Poodle, Toy",1,H,,,33,60
+122,Rose,Perro,"Chihuahua, Short Coat",14,M,,,34,153
+123,Oliver,Perro,"Chihuahua, Long Coat",10,H,,,37,5
+124,Cozmo,Perro,"Miniature Pinscher",3,M,,,33,67
+125,Olaf,Perro,"Australian Shepherd",12,M,,,14,73
+126,Baker,Perro,"Dachshund, Standard Long Haired",0,H,,,12,31
+127,Pax,Perro,Terrier,3,H,,,7,72
+128,Sydney,Perro,"Terrier, Rat",12,M,,,9,55
+129,Nino,Perro,"Setter, English",15,M,,,28,40
+130,Josephine,Perro,"Dachshund, Miniature Long Haired",8,M,,,28,108
+131,"Megan II",Perro,"Retriever, Labrador",6,H,,,9,94
+132,Tucker,Perro,"Bichon Frise",7,M,,,38,131
+133,Frankie,Perro,"Terrier, Fox, Wire",14,M,,,35,30
+134,Cooper,Perro,"Retriever, Labrador",5,H,,,28,198
+135,Kevin,Perro,Terrier,1,M,,,12,78
+136,Lindy,Perro,"Setter, English",17,H,,,6,119
+137,Squeegee,Perro,Boxer,10,M,,,40,40
+138,Bom-ee,Perro,"Retriever, Labrador",13,H,,,20,187
+139,Lucas,Perro,"Bichon Frise",5,H,,,33,163
+140,Marley,Perro,"German Shepherd",16,H,,,26,18
+141,Latte,Perro,"Bernese Mountain Dog",5,M,,,28,137
+142,Jaba,Perro,"Chihuahua, Short Coat",6,M,,,20,49
+143,Lola,Perro,"Poodle, Standard",18,M,,,24,99
+144,Bailey,Perro,"Retriever, Golden",14,M,,,22,147
+145,Tris,Perro,Retriever,7,M,,,37,131
+146,Noodles,Perro,"Poodle, Standard",14,M,,,14,111
+147,Mochi,Perro,"Retriever, Labrador",14,H,,,19,140
+148,Bo,Perro,"Retriever, Labrador",1,H,,,37,173
+149,Yuki,Perro,"Italian Greyhound",1,H,,,40,60
+150,Bandito,Perro,"Siberian Husky",1,H,,,4,111
+151,Bendy,Perro,"Shih Tzu",9,M,,,41,60
+152,Rikki,Perro,Havanese,18,H,,,35,86
+153,Lucy,Perro,Pomeranian,5,H,,,40,171
+154,Cruz,Perro,Mix,9,M,,,21,92
+155,Patsy,Perro,"Mixed Breed, Small (under 24 lbs fully grown)",12,M,,,3,137
+156,"Dolly Pawton",Perro,"Bulldog, French",13,M,,,32,112
+157,Ooma,Perro,"Poodle, Standard",4,H,,,31,157
+158,Sugar,Perro,"Shiba Inu",0,M,,,20,40
+159,Ruby,Perro,"Border Collie",18,M,,,27,174
+160,Libby,Perro,Terrier,15,H,,,6,71
+161,KiKi,Perro,Whippet,5,M,,,6,106
+162,Hercules,Perro,"Border Collie",0,H,,,30,13
+163,Sailor,Perro,"Retriever, Golden",1,M,,,10,31
+164,Leo,Perro,"Spaniel, Cavalier King Charles",1,M,,,13,104
+165,Lilli,Perro,"Australian Cattle Dog",6,M,,,6,11
+166,Sunny,Perro,"Chihuahua, Short Coat",10,M,,,23,191
+167,Finn,Perro,"Retriever, Labrador",10,H,,,3,92
+168,Frankie,Perro,"Australian Shepherd",17,M,,,26,149
+169,Finchley,Perro,"Poodle, Standard",5,M,,,39,110
+170,Bella,Perro,"Schnauzer, Standard",8,H,,,9,54
+171,Peach,Perro,Terrier,2,M,,,25,61
+172,Bella,Perro,Havanese,18,H,,,14,102
+173,"Otis Redding",Perro,"Chihuahua, Short Coat",0,M,,,12,6
+174,Piper,Perro,"Retriever, Golden",1,H,,,21,157
+175,Diane,Perro,"Terrier, Pit Bull",12,M,,,17,67
+176,Tate,Perro,"Australian Shepherd",18,M,,,11,10
+177,Jasmine,Perro,"Spaniel, Cavalier King Charles",17,M,,,32,138
+178,"Charlie Parker",Perro,"Poodle, Miniature",1,H,,,5,42
+179,Scout,Perro,"Lagotto Romagnolo",11,M,,,9,161
+180,Cooper,Perro,"Saint Bernard",3,M,,,37,131
+181,Apollo,Perro,"Terrier, Pit Bull",16,M,,,41,160
+182,"Little Brother",Perro,"Chihuahua, Short Coat",12,H,,,39,173
+183,Lexi,Perro,"Australian Shepherd",7,M,,,8,127
+184,Ivy,Perro,Papillon,11,H,,,10,114
+185,Nala,Perro,"Mixed Breed, Large (over 44 lbs fully grown)",12,H,,,9,179
+186,Mara,Perro,"Australian Shepherd",1,M,,,27,163
+187,Buck,Perro,"Border Collie",1,H,,,15,200
+188,Rambo,Perro,"Irish Wolfhound",17,M,,,43,17
+189,Dellie,Perro,"Poodle, Toy",10,H,,,31,16
+190,Ruedi,Perro,"Entlebucher Mountain Dog",3,H,,,40,93
+191,Max,Perro,"Chihuahua, Short Coat",17,H,,,9,54
+192,Tilda,Perro,"German Shepherd",15,M,,,45,170
+193,DeeDee,Perro,"Terrier, Pit Bull",12,H,,,8,59
+194,Charlie,Perro,"Chihuahua, Short Coat",15,M,,,34,184
+195,Gru,Perro,"Siberian Husky",11,M,,,20,96
+196,Nigel,Perro,"Terrier, Norwich",1,H,,,24,167
+197,Bear,Perro,"German Shepherd",0,H,,,27,196
+198,Shalo,Perro,Newfoundland,14,H,,,18,59
+199,Bella,Perro,"Italian Greyhound",0,M,,,34,102
+200,Maple,Perro,"Terrier, Airedale",14,H,,,28,183
+201,George,Gato,"American Shorthair",0,H,,Calicó,,68
+202,Zeus,Gato,"American Shorthair",4,H,,Carey,,190
+203,Sully,Gato,"American Shorthair",17,H,,Carey,,59
+204,"Daisy Mae",Gato,"Domestic Shorthair",3,H,,Blanco,,130
+205,Mellow,Gato,Bengal,16,M,,Naranja,,175
+206,Luvia,Gato,"Domestic Medium Hair",5,H,,Gris,,85
+207,Hulk,Gato,"Domestic Shorthair",13,M,,Naranja,,47
+208,Iggy,Gato,"American Shorthair",10,H,,Blanco,,70
+209,Teri,Gato,"Domestic Shorthair",13,M,,Blanco,,72
+210,"Sweet William",Gato,"Domestic Longhair",13,H,,Naranja,,134
+211,Bisou,Gato,"Domestic Shorthair",12,M,,Café,,139
+212,Cosmo,Gato,"Domestic Medium Hair",18,M,,Naranja,,160
+213,Luna,Gato,"Domestic Longhair",12,H,,Naranja,,172
+214,Jiji,Gato,"American Shorthair",0,M,,Carey,,15
+215,Velma,Gato,"Domestic Shorthair",17,M,,Café,,103
+216,Toolie,Gato,"Domestic Shorthair",2,H,,Naranja,,150
+217,Gizmo,Gato,"Domestic Medium Hair",0,M,,Café,,195
+218,Houdini,Gato,"American Shorthair",17,M,,Carey,,116
+219,Titou,Gato,"Domestic Shorthair",12,H,,Gris,,144
+220,Athena,Gato,Mix,8,H,,Café,,133
+221,Pepper,Gato,"Domestic Shorthair",10,M,,Negro,,11
+222,"Van Wilder (Boy)",Gato,"Domestic Shorthair",12,H,,Naranja,,92
+223,Ollie,Gato,"Domestic Medium Hair",10,M,,Gris,,198
+224,Tucker,Gato,"American Shorthair",8,M,,Naranja,,171
+225,Polly,Gato,"Domestic Shorthair",14,M,,Calicó,,165
+226,Remy,Gato,"Domestic Longhair",18,H,,Negro,,23
+227,"Susan Patnoe",Gato,Munchkin,2,H,,Blanco,,176
+228,Mir,Gato,"American Shorthair",10,H,,Café,,57
+229,"Leonard ""Lenny""",Gato,"Domestic Shorthair",18,M,,Blanco,,44
+230,Rosie,Gato,"Maine Coon",7,M,,Café,,81
+231,Peaches,Gato,"Domestic Longhair",9,M,,Café,,76
+232,"Stella Marie",Gato,"American Shorthair",18,M,,Naranja,,82
+233,Straya,Gato,"Domestic Medium Hair",10,M,,Atigrado,,88
+234,George,Gato,"Norwegian Forest",2,H,,Café,,115
+235,Paloma,Gato,"Domestic Longhair",14,H,,Naranja,,11
+236,Bengal,Gato,"Domestic Medium Hair",14,M,,Gris,,7
+237,Ripley,Gato,Siamese,2,M,,Atigrado,,118
+238,"Mr. Fancy",Gato,"Domestic Shorthair",14,H,,Carey,,139
+239,Erinna,Gato,"Domestic Shorthair",5,M,,Blanco,,143
+240,Motor,Gato,"Domestic Medium Hair",1,M,,Gris,,9
+241,Porsche,Gato,Siamese,13,H,,Gris,,90
+242,Aspyn,Gato,"Domestic Shorthair",15,H,,Gris,,3
+243,"Sterling Meowry Archer",Gato,Siberian,17,H,,Carey,,199
+244,Zizzi,Gato,"Domestic Shorthair",2,M,,Negro,,170
+245,Oscar,Gato,"Domestic Shorthair",4,H,,Carey,,88
+246,Vi,Gato,"Domestic Shorthair",2,M,,Calicó,,62
+247,Cheddar,Gato,"Domestic Longhair",3,H,,Atigrado,,81
+248,Blanket,Gato,"Domestic Shorthair",12,M,,Atigrado,,86
+249,Orzo,Gato,Siberian,5,H,,Naranja,,125
+250,Cookie,Gato,"American Shorthair",9,M,,Negro,,145
+251,Charlie,Gato,"Domestic Medium Hair",14,H,,Naranja,,83
+252,Oren,Gato,"Domestic Shorthair",14,H,,Calicó,,57
+253,Julie,Gato,"Domestic Shorthair",5,H,,Carey,,154
+254,Willow,Gato,Siamese,13,H,,Negro,,185
+255,Niles,Gato,"Domestic Longhair",18,H,,Café,,101
+256,Kyrie,Gato,"Domestic Medium Hair",8,H,,Carey,,98
+257,Fred,Gato,"Domestic Shorthair",11,H,,Negro,,145
+258,Mochi,Gato,Siamese,17,H,,Café,,55
+259,Cupid,Gato,"Domestic Longhair",14,M,,Carey,,198
+260,Sonny,Gato,"Domestic Shorthair",14,M,,Gris,,162
+261,Luna,Gato,"American Shorthair",12,H,,Calicó,,178
+262,Darkness,Gato,"British Shorthair",16,M,,Atigrado,,25
+263,Tonks,Gato,"Domestic Medium Hair",0,H,,Atigrado,,157
+264,Chanel,Gato,"Domestic Shorthair",16,M,,Carey,,59
+265,Midnight,Gato,"Domestic Shorthair",8,H,,Atigrado,,111
+266,Ray-Ban,Gato,"Domestic Shorthair",6,H,,Gris,,147
+267,Valentino,Gato,"Domestic Shorthair",10,H,,Naranja,,32
+268,Bug,Gato,"Domestic Shorthair",14,M,,Calicó,,139
+269,Felix,Gato,"Domestic Longhair",12,M,,Calicó,,71
+270,Giannis,Gato,Mix,1,H,,Naranja,,39
+271,Artemis,Gato,"Domestic Medium Hair",3,M,,Café,,163
+272,Pearl,Gato,Mix,15,M,,Naranja,,69
+273,Robin,Gato,"Domestic Medium Hair",7,M,,Atigrado,,99
+274,Chester,Gato,"Domestic Shorthair",16,H,,Gris,,16
+275,Talia,Gato,"American Shorthair",4,H,,Gris,,174
+276,Bubbles,Gato,"Domestic Medium Hair",5,H,,Atigrado,,134
+277,Puck,Gato,"Domestic Shorthair",1,M,,Gris,,135
+278,Flame,Gato,"Domestic Shorthair",8,M,,Naranja,,14
+279,Frankie,Gato,Ragdoll,1,M,,Café,,73
+280,Shadow,Gato,"Domestic Shorthair",0,H,,Atigrado,,83
+281,Rowan,Gato,"American Shorthair",12,H,,Naranja,,97
+282,Tinkerbell,Gato,"Domestic Shorthair",6,H,,Gris,,197
+283,Dragon,Gato,"Domestic Shorthair",12,M,,Calicó,,80
+284,Cinna,Gato,"Domestic Medium Hair",18,M,,Carey,,138
+285,"Eddie Macdonald",Gato,Siamese,5,M,,Gris,,18
+286,Fondue,Gato,"Domestic Medium Hair",13,H,,Gris,,171
+287,Sage,Gato,"Domestic Longhair",7,H,,Negro,,74
+288,Crystal,Gato,"Domestic Shorthair",13,H,,Carey,,111
+289,"Baby Beth",Gato,"Domestic Shorthair",11,H,,Negro,,1
+290,Chester,Gato,"Domestic Shorthair",6,H,,Negro,,25
+291,Smidge,Gato,"American Shorthair",6,H,,Negro,,168
+292,"Mr. Bones (Boney)",Gato,"Domestic Shorthair",0,H,,Café,,152
+293,Peoria,Gato,"Domestic Shorthair",14,H,,Blanco,,99
+294,Smokey,Gato,RagaMuffin,15,H,,Calicó,,174
+295,Rosie,Gato,"Domestic Medium Hair",8,H,,Carey,,52
+296,Cleo,Gato,"Domestic Shorthair",15,H,,Naranja,,120
+297,Sammy,Gato,Snowshoe,13,H,,Café,,88
+298,Punto,Gato,"American Shorthair",8,M,,Calicó,,107
+299,Yoko,Gato,"British Shorthair",10,H,,Café,,8
+300,Meep,Gato,"Domestic Medium Hair",18,H,,Negro,,1
+301,Lorenzo,Gato,"Domestic Shorthair",8,M,,Carey,,21
+302,Caramel,Gato,"Domestic Shorthair",5,M,,Naranja,,147
+303,Titus,Gato,"American Shorthair",1,H,,Carey,,42
+304,Max,Gato,"Domestic Shorthair",11,M,,Negro,,181
+305,Buddy,Gato,"Domestic Shorthair",11,M,,Gris,,151
+306,Wasabi,Gato,"Domestic Longhair",3,M,,Naranja,,156
+307,Fred,Gato,"Domestic Shorthair",18,H,,Calicó,,60
+308,Lyra,Gato,"Domestic Shorthair",14,M,,Gris,,9
+309,Ellie,Gato,Abyssinian,15,M,,Naranja,,186
+310,Liam,Gato,"Domestic Shorthair",16,M,,Café,,51
+311,Truman,Gato,"Domestic Shorthair",11,M,,Negro,,176
+312,Galen,Gato,"Domestic Shorthair",12,H,,Atigrado,,172
+313,Kika,Gato,"Domestic Shorthair",7,H,,Atigrado,,88
+314,Lasagna,Gato,"American Shorthair",17,H,,Negro,,76
+315,Kikini,Gato,Siamese,17,M,,Naranja,,63
+316,Bella,Gato,Pixie-Bob,14,H,,Calicó,,94
+317,Dom,Gato,"Domestic Shorthair",2,H,,Gris,,8
+318,Sophie,Gato,"Domestic Shorthair",10,H,,Atigrado,,41
+319,Fisher,Gato,"Domestic Shorthair",8,M,,Carey,,170
+320,Simba,Gato,"Domestic Shorthair",0,M,,Negro,,139
+321,Lil,Gato,Ragdoll,2,H,,Negro,,87
+322,Mitzy,Gato,"Domestic Longhair",7,H,,Carey,,41
+323,Salem,Gato,"Domestic Longhair",5,H,,Gris,,126
+324,Toffee,Gato,"Domestic Shorthair",17,H,,Negro,,28
+325,Torbjorn,Gato,"Domestic Shorthair",1,H,,Blanco,,195
+326,Misha,Gato,Bengal,10,H,,Atigrado,,182
+327,Leah,Gato,"American Shorthair",0,M,,Gris,,4
+328,Tabitha,Gato,Siamese,9,M,,Café,,66
+329,Nicholas,Gato,"Domestic Shorthair",3,M,,Atigrado,,60
+330,Moxie,Gato,"Domestic Medium Hair",6,M,,Calicó,,46
+331,Jade,Gato,"Domestic Shorthair",1,H,,Blanco,,183
+332,"Feisty Vanilla Star",Gato,"Domestic Shorthair",8,H,,Café,,114
+333,Huck,Gato,"Domestic Shorthair",6,H,,Carey,,26
+334,Chick,Gato,"American Shorthair",4,M,,Café,,166
+335,Laszlo,Gato,"American Shorthair",15,M,,Calicó,,154
+336,Mo,Gato,"American Shorthair",0,M,,Blanco,,55
+337,Tony,Gato,"Maine Coon",8,M,,Blanco,,33
+338,Penny,Gato,"Domestic Shorthair",6,M,,Gris,,143
+339,Matilda,Gato,"Domestic Shorthair",2,M,,Blanco,,74
+340,Penny,Gato,"Domestic Shorthair",18,M,,Atigrado,,88
+341,Helga,Gato,"American Shorthair",15,M,,Carey,,33
+342,Skyla,Gato,"Domestic Shorthair",10,M,,Café,,171
+343,Sammy,Gato,"Domestic Shorthair",12,M,,Café,,125
+344,"Klaus Nomi",Gato,"Domestic Medium Hair",6,M,,Atigrado,,173
+345,Nessy,Gato,"Domestic Medium Hair",7,M,,Atigrado,,63
+346,Nerf,Gato,"Domestic Medium Hair",16,M,,Carey,,166
+347,Tally,Gato,"Domestic Shorthair",4,H,,Calicó,,88
+348,Mia,Gato,"Domestic Shorthair",3,M,,Naranja,,3
+349,Pual,Gato,"British Shorthair",5,M,,Carey,,146
+350,Storna,Gato,"Domestic Shorthair",10,H,,Atigrado,,105
+351,Handsome,Gato,"Domestic Shorthair",14,M,,Atigrado,,173
+352,Yayoi,Gato,"American Shorthair",4,H,,Blanco,,52
+353,Fiona,Gato,Manx,8,H,,Calicó,,114
+354,Jane,Gato,"Domestic Shorthair",4,M,,Blanco,,21
+355,Cocoa,Gato,"Domestic Medium Hair",11,M,,Blanco,,86
+356,Georgie,Gato,"Domestic Shorthair",8,M,,Blanco,,133
+357,Puck,Gato,"Domestic Shorthair",13,M,,Café,,60
+358,Salem,Gato,Bombay,13,H,,Gris,,137
+359,Athena,Gato,"Domestic Shorthair",15,M,,Gris,,154
+360,Bozi,Gato,"American Shorthair",10,H,,Carey,,89
+361,Sadie,Gato,Siamese,2,M,,Gris,,132
+362,Peaches,Gato,"Domestic Shorthair",0,M,,Calicó,,36
+363,Abigail,Gato,"Domestic Medium Hair",5,M,,Blanco,,123
+364,Eloise,Gato,"Domestic Shorthair",17,M,,Carey,,74
+365,Betzabel,Gato,"Domestic Longhair",6,H,,Gris,,173
+366,"Vera Wang",Gato,"Domestic Medium Hair",12,M,,Calicó,,200
+367,"Baby Girl Kit",Gato,"Domestic Shorthair",2,M,,Negro,,85
+368,Nina,Gato,Siamese,4,H,,Atigrado,,68
+369,Kenzie,Gato,Mix,5,H,,Naranja,,117
+370,Pepita,Gato,"Domestic Shorthair",6,M,,Gris,,39
+371,Marmalade,Gato,"American Shorthair",1,M,,Blanco,,178
+372,Dearee,Gato,"Domestic Shorthair",5,M,,Calicó,,17
+373,Zee,Gato,"Domestic Shorthair",2,M,,Negro,,116
+374,Estelle,Gato,Bengal,7,M,,Café,,91
+375,Hannah,Gato,"Domestic Medium Hair",8,H,,Naranja,,118
+376,Oscar,Gato,"Domestic Shorthair",17,M,,Negro,,131
+377,Francis,Gato,"Domestic Shorthair",13,H,,Calicó,,13
+378,Conan,Gato,"American Shorthair",9,H,,Café,,167
+379,Nala,Gato,"Domestic Medium Hair",4,M,,Calicó,,57
+380,Geordi,Gato,"Domestic Shorthair",13,M,,Blanco,,66
+381,Wren,Gato,"Domestic Shorthair",6,H,,Café,,7
+382,Neko,Gato,"Domestic Shorthair",7,M,,Negro,,136
+383,Oliver,Gato,"Domestic Shorthair",2,M,,Gris,,17
+384,Zoe,Gato,"Domestic Shorthair",1,M,,Negro,,55
+385,Blu,Gato,Birman,6,H,,Atigrado,,67
+386,Obsidian,Gato,"Domestic Shorthair",15,H,,Atigrado,,43
+387,Leia,Gato,"Domestic Shorthair",14,M,,Café,,101
+388,Memphis,Gato,Ragdoll,18,M,,Café,,75
+389,Kiki,Gato,"Domestic Shorthair",9,H,,Calicó,,98
+390,Meow,Gato,"Domestic Shorthair",15,M,,Naranja,,118
+391,Smokey,Gato,Siamese,3,H,,Carey,,79
+392,Archie,Gato,"Domestic Shorthair",17,M,,Naranja,,94
+393,Boo,Gato,"Norwegian Forest",0,H,,Naranja,,72
+394,Lottie,Gato,"American Shorthair",15,M,,Blanco,,29
+395,Bo,Gato,"Domestic Longhair",8,M,,Calicó,,104
+396,Keaton,Gato,"Domestic Longhair",7,M,,Gris,,133
+397,Rascal,Gato,"Domestic Shorthair",18,M,,Negro,,83
+398,Maple,Gato,"British Shorthair",12,M,,Carey,,119
+399,"Regular-Sized Rudy",Gato,"Domestic Shorthair",5,H,,Blanco,,154
+400,Nightsong,Gato,"Domestic Shorthair",10,M,,Gris,,99
