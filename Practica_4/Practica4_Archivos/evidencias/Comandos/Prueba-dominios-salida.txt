@@ -1,0 +1,63 @@
+PS> psql -f pruebas-dominio.sql 2>&1 | Tee-Object evidencias\pruebas-dominio-salida.txt
+BEGIN
+psql:pruebas-dominio.sql:8: ERROR:  el valor nulo en la columna «correo» de la relación «dueno» viola la restricción “not-null”
+DETALLE:  La fila que falla contiene (900, Ana, Pérez Ruiz, null, 5511112222, Calle Hidalgo 10, CDMX).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:14: ERROR:  el valor nulo en la columna «codigo_veterinario» de la relación «cita» viola la restricción “not-null”
+DETALLE:  La fila que falla contiene (1, 900, 2026-12-01, 10:00:00, null, null, null).
+ROLLBACK
+BEGIN
+ es_dermatologo | es_cirujano
+----------------+-------------
+ f              | f
+(1 fila)
+
+INSERT 0 1
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:27: ERROR:  llave duplicada viola restricción de unicidad «uq_dueno_correo»
+DETALLE:  Ya existe la llave (correo)=(miguel.lopez1@example.com).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:33: ERROR:  llave duplicada viola restricción de unicidad «uq_veterinario_certificado»
+DETALLE:  Ya existe la llave (num_certificado)=(CED-1000037).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:39: ERROR:  llave duplicada viola restricción de unicidad «uq_cita_veterinario_fecha_hora»
+DETALLE:  Ya existe la llave (codigo_veterinario, fecha, hora)=(6, 2026-03-22, 10:00:00).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:44: ERROR:  el nuevo registro para la relación «mascota» viola la restricción «check» «ck_mascota_edad»
+DETALLE:  La fila que falla contiene (1, Phoebe, Perro, Welsh Corgi, Pembroke, 41, H, null, null, 31, 65).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:49: ERROR:  el nuevo registro para la relación «mascota» viola la restricción «check» «ck_mascota_peso»
+DETALLE:  La fila que falla contiene (1, Phoebe, Perro, Welsh Corgi, Pembroke, 14, H, null, null, 0, 65).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:55: ERROR:  el valor para el dominio d_codigo viola la restricción «check» «ck_d_codigo»
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:60: ERROR:  el nuevo registro para la relación «mascota» viola la restricción «check» «ck_mascota_sexo»
+DETALLE:  La fila que falla contiene (1, Phoebe, Perro, Welsh Corgi, Pembroke, 14, X, null, null, 31, 65).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:66: ERROR:  el nuevo registro para la relación «dueno» viola la restricción «check» «ck_dueno_correo»
+DETALLE:  La fila que falla contiene (902, Ana, Pérez Ruiz, ana.sin.arroba, 5511112222, Calle Hidalgo 10, CDMX).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:72: ERROR:  el valor para el dominio d_nombre viola la restricción «check» «ck_d_nombre»
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:77: ERROR:  el nuevo registro para la relación «tratamiento» viola la restricción «check» «ck_tratamiento_fechas»
+DETALLE:  La fila que falla contiene (1, Antialérgico, 2026-05-19, 2026-05-18, 51, 2).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:82: ERROR:  el nuevo registro para la relación «veterinario» viola la restricción «check» «ck_vet_pacientes»
+DETALLE:  La fila que falla contiene (1, Iván, Vázquez Pérez, CED-1000037, f, 10, t, 271).
+ROLLBACK
+BEGIN
+psql:pruebas-dominio.sql:87: ERROR:  el nuevo registro para la relación «mascota» viola la restricción «check» «ck_mascota_peso_perro»
+DETALLE:  La fila que falla contiene (201, George, Gato, American Shorthair, 0, H, null, Calicó, 4, 68).
+ROLLBACK

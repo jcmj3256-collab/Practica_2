@@ -1,0 +1,6 @@
+PS> psql -v ON_ERROR_STOP=1 -f poblar\poblar.sql 2>&1 | Tee-Object evidencias\carga-0-falla.txt
+>> Cargando dueno
+>> Cargando veterinario
+>> Cargando mascota
+psql:poblar/poblar.sql:53: ERROR:  el valor es demasiado largo para el tipo character varying(40)
+CONTEXTO:  COPY stg, línea 8, columna raza: «Mixed Breed, Medium (up to 44 lbs fully grown)»
