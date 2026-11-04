@@ -1,0 +1,99 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261103205448
+Nombre de usuario: DESKTOP-FB18HTL\DELL
+Usuario RunAs: DESKTOP-FB18HTL\DELL
+Nombre de la configuración: 
+Máquina: DESKTOP-FB18HTL (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 7296
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es evidencias\permisos-salida.txt
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_consulta $env:VET_CONSULTA_PASS "SELECT count(*) FROM mascota;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_consulta $env:VET_CONSULTA_PASS "INSERT INTO dueno (codigo_dueno,nombre,apellidos,correo,telefono,direccion) VALUES (950,'Ana','Pérez','a950@example.com','5511112222','Calle 1');"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_app $env:VET_APP_PASS "BEGIN; UPDATE mascota SET notas='Vacuna al día' WHERE codigo_mascota=1; ROLLBACK;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_app $env:VET_APP_PASS "DELETE FROM veterinario WHERE codigo_veterinario=2;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_admin $env:VET_ADMIN_PASS "BEGIN; ALTER TABLE dueno ADD COLUMN prueba INT; ROLLBACK;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_admin $env:VET_ADMIN_PASS "CREATE ROLE intruso LOGIN;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_consulta $env:VET_CONSULTA_PASS "INSERT INTO dueno (codigo_dueno,nombre,apellidos,correo,telefono,direccion) VALUES (950,'Ana','Perez','a950@example.com','5511112222','Calle 1');"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_app $env:VET_APP_PASS "BEGIN; UPDATE mascota SET notas='Vacuna al dia' WHERE codigo_mascota=1; ROLLBACK;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261103205710
+**********************
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261103205747
+Nombre de usuario: DESKTOP-FB18HTL\DELL
+Usuario RunAs: DESKTOP-FB18HTL\DELL
+Nombre de la configuración: 
+Máquina: DESKTOP-FB18HTL (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 7296
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es evidencias\permisos-salida.txt
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_app $env:VET_APP_PASS "DELETE FROM tratamiento WHERE codigo_tratamiento=300;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261103205909
+**********************
+**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20261103205939
+Nombre de usuario: DESKTOP-FB18HTL\DELL
+Usuario RunAs: DESKTOP-FB18HTL\DELL
+Nombre de la configuración: 
+Máquina: DESKTOP-FB18HTL (Microsoft Windows NT 10.0.26300.0)
+Aplicación host: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 7296
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es evidencias\permisos-salida.txt
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_app $env:VET_APP_PASS "BEGIN; DELETE FROM tratamiento WHERE codigo_tratamiento=300; ROLLBACK;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Como usr_admin $env:VET_ADMIN_PASS "TRUNCATE tratamiento, cita, mascota, veterinario, dueno;"
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> $env:PGUSER="usr_app"; $env:PGPASSWORD=$env:VET_APP_PASS
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> psql -v ON_ERROR_STOP=1 -f poblar\poblar.sql
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> psql -v ON_ERROR_STOP=1 -f poblar\poblar.sql
+
+PS C:\Users\DELL\OneDrive\Escritorio\BasedeDatos\Practica4_Archivos> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20261103210055
+**********************

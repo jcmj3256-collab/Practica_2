@@ -1,0 +1,301 @@
+codigo_tratamiento,descripcion,fecha_tratamiento,fecha_vencimiento,codigo_mascota,codigo_cita
+1,Antialérgico,2026-05-19,2026-10-02,51,2
+2,"Limpieza de oídos",2026-09-06,,284,3
+3,"Antibiótico por 7 días",2026-10-16,,391,2
+4,"Curación de herida",2026-06-08,,132,2
+5,Desparasitación,2026-09-10,2027-04-26,275,2
+6,"Antibiótico por 7 días",2026-04-10,,301,2
+7,"Curación de herida",2026-07-05,,248,1
+8,"Limpieza de oídos",2026-08-02,2026-11-14,76,2
+9,"Vacuna antirrábica",2026-09-08,,301,4
+10,Antialérgico,2026-09-03,,393,3
+11,Desparasitación,2026-10-09,2027-09-02,41,1
+12,"Vacuna antirrábica",2026-06-27,2026-07-11,31,2
+13,Antialérgico,2026-10-01,2027-03-24,32,2
+14,"Dieta de control de peso",2026-08-23,,123,1
+15,"Vacuna antirrábica",2026-07-15,,138,2
+16,"Curación de herida",2026-09-24,,27,2
+17,"Limpieza de oídos",2026-02-21,,205,1
+18,"Vacuna antirrábica",2026-07-01,2027-06-14,72,1
+19,Desparasitación,2026-08-05,2026-10-16,277,1
+20,"Curación de herida",2026-03-27,,364,4
+21,Antialérgico,2026-06-28,2027-02-13,267,1
+22,"Dieta de control de peso",2026-02-07,2026-06-16,118,1
+23,"Antibiótico por 7 días",2026-07-13,2026-09-11,48,2
+24,"Dieta de control de peso",2026-07-07,2026-12-14,184,3
+25,"Vacuna antirrábica",2026-06-04,2027-05-18,360,1
+26,Desparasitación,2026-05-19,,290,3
+27,Antialérgico,2026-07-02,,228,3
+28,"Antibiótico por 7 días",2026-05-19,2027-05-05,238,4
+29,"Vacuna antirrábica",2026-09-29,,37,2
+30,"Dieta de control de peso",2026-01-06,,375,2
+31,"Antibiótico por 7 días",2026-04-29,2026-11-13,156,1
+32,Antialérgico,2026-01-27,,262,3
+33,Desparasitación,2026-08-29,,128,1
+34,"Dieta de control de peso",2026-05-01,,348,1
+35,"Dieta de control de peso",2026-02-14,2026-12-12,202,3
+36,Antialérgico,2026-10-22,,184,2
+37,"Vacuna antirrábica",2026-07-22,2027-06-30,226,3
+38,"Limpieza de oídos",2026-09-04,2026-12-26,122,2
+39,"Limpieza de oídos",2026-02-06,,39,1
+40,"Curación de herida",2026-06-21,,354,1
+41,"Dieta de control de peso",2026-02-12,2026-10-03,205,2
+42,"Limpieza de oídos",2026-08-13,,130,1
+43,"Limpieza de oídos",2026-09-28,2026-12-08,125,3
+44,"Antibiótico por 7 días",2026-01-25,2027-01-06,304,1
+45,"Antibiótico por 7 días",2026-05-12,,298,2
+46,"Vacuna antirrábica",2026-10-27,2027-06-10,181,2
+47,"Curación de herida",2026-02-13,2027-02-12,377,2
+48,"Vacuna antirrábica",2026-04-18,2026-12-19,243,1
+49,Antialérgico,2026-10-08,,245,3
+50,"Limpieza de oídos",2026-07-11,,136,1
+51,Desparasitación,2026-08-19,2026-11-15,5,2
+52,"Curación de herida",2026-10-20,2027-03-07,77,1
+53,Desparasitación,2026-03-01,,221,3
+54,Antialérgico,2026-08-05,,82,1
+55,"Vacuna antirrábica",2026-10-28,2027-09-14,272,1
+56,Desparasitación,2026-04-30,2026-05-21,383,2
+57,"Vacuna antirrábica",2026-05-08,2026-06-17,16,2
+58,"Antibiótico por 7 días",2026-08-22,,3,1
+59,"Antibiótico por 7 días",2026-06-29,,288,1
+60,Antialérgico,2026-09-05,,103,1
+61,Antialérgico,2026-10-01,2027-08-29,382,5
+62,"Antibiótico por 7 días",2026-06-29,,399,3
+63,Antialérgico,2026-05-25,2027-04-03,40,1
+64,"Dieta de control de peso",2026-08-13,2027-07-24,140,1
+65,"Dieta de control de peso",2026-09-18,,394,2
+66,"Antibiótico por 7 días",2026-09-30,2027-05-13,110,1
+67,"Dieta de control de peso",2026-06-08,2026-11-09,149,2
+68,"Antibiótico por 7 días",2026-09-23,2027-07-23,372,1
+69,"Dieta de control de peso",2026-08-25,2027-02-22,187,3
+70,"Antibiótico por 7 días",2026-01-06,2026-10-29,229,1
+71,Antialérgico,2026-08-12,2026-10-29,187,4
+72,"Curación de herida",2026-07-28,2026-09-26,227,2
+73,"Dieta de control de peso",2026-09-06,,343,1
+74,"Limpieza de oídos",2026-06-20,2026-08-08,254,3
+75,"Dieta de control de peso",2026-09-30,,289,2
+76,"Curación de herida",2026-09-17,,301,1
+77,"Dieta de control de peso",2026-07-15,,396,2
+78,"Antibiótico por 7 días",2026-09-25,2027-09-17,347,1
+79,"Vacuna antirrábica",2026-01-13,,357,1
+80,"Vacuna antirrábica",2026-09-05,,333,3
+81,"Dieta de control de peso",2026-05-30,2027-03-20,90,1
+82,Desparasitación,2026-07-29,2027-03-17,278,2
+83,"Dieta de control de peso",2026-05-05,,117,1
+84,"Antibiótico por 7 días",2026-03-22,2026-12-06,308,1
+85,Antialérgico,2026-11-01,,233,1
+86,Antialérgico,2026-02-13,2026-03-18,283,2
+87,"Curación de herida",2026-06-10,,16,1
+88,"Vacuna antirrábica",2026-05-19,2026-11-11,4,1
+89,"Curación de herida",2026-06-20,,292,2
+90,"Limpieza de oídos",2026-02-19,,180,1
+91,"Curación de herida",2026-07-06,,28,6
+92,Desparasitación,2026-01-06,2026-11-02,170,2
+93,"Dieta de control de peso",2026-10-24,2027-10-11,10,2
+94,Antialérgico,2026-02-18,2026-04-21,179,3
+95,"Curación de herida",2026-01-22,,266,4
+96,"Curación de herida",2026-03-11,,379,1
+97,"Dieta de control de peso",2026-07-05,2026-09-03,236,1
+98,"Curación de herida",2026-05-01,,346,1
+99,Desparasitación,2026-05-21,2027-01-13,294,2
+100,"Dieta de control de peso",2026-02-11,2026-11-30,136,3
+101,"Curación de herida",2026-05-24,,92,1
+102,Desparasitación,2026-02-12,,41,2
+103,"Limpieza de oídos",2026-11-01,2027-01-08,81,1
+104,"Vacuna antirrábica",2026-01-27,,135,1
+105,Antialérgico,2026-03-15,,86,2
+106,"Vacuna antirrábica",2026-06-17,2027-06-06,193,1
+107,"Vacuna antirrábica",2026-10-26,2027-03-15,383,3
+108,"Curación de herida",2026-08-13,,99,1
+109,Antialérgico,2026-09-29,,11,1
+110,"Limpieza de oídos",2026-04-17,,65,1
+111,Antialérgico,2026-06-02,,126,1
+112,"Antibiótico por 7 días",2026-03-16,2026-08-12,307,1
+113,Antialérgico,2026-08-18,,32,1
+114,"Limpieza de oídos",2026-02-25,,128,3
+115,Desparasitación,2026-08-29,,383,4
+116,"Limpieza de oídos",2026-09-11,,256,3
+117,Antialérgico,2026-07-25,,43,2
+118,"Dieta de control de peso",2026-05-31,,272,2
+119,"Antibiótico por 7 días",2026-08-15,,106,1
+120,"Vacuna antirrábica",2026-02-09,,349,1
+121,Antialérgico,2026-02-13,,295,2
+122,"Vacuna antirrábica",2026-09-29,2026-10-28,317,1
+123,"Limpieza de oídos",2026-06-03,,68,3
+124,Antialérgico,2026-08-13,,89,4
+125,"Curación de herida",2026-06-05,,14,4
+126,"Dieta de control de peso",2026-07-30,,165,3
+127,"Antibiótico por 7 días",2026-01-21,2026-09-25,99,2
+128,"Vacuna antirrábica",2026-08-04,2027-05-14,325,1
+129,"Antibiótico por 7 días",2026-06-04,2026-07-09,220,1
+130,"Antibiótico por 7 días",2026-07-03,2026-12-02,70,2
+131,"Antibiótico por 7 días",2026-02-18,,324,2
+132,Desparasitación,2026-08-06,2027-07-28,364,2
+133,Desparasitación,2026-05-23,,362,1
+134,"Vacuna antirrábica",2026-08-05,2027-05-25,231,1
+135,"Limpieza de oídos",2026-09-09,2027-01-29,312,3
+136,"Limpieza de oídos",2026-06-10,2027-03-07,154,3
+137,"Vacuna antirrábica",2026-07-08,2026-10-26,343,4
+138,"Limpieza de oídos",2026-07-30,,67,1
+139,"Dieta de control de peso",2026-09-18,,296,2
+140,Antialérgico,2026-08-22,,332,1
+141,"Dieta de control de peso",2026-05-27,,142,3
+142,"Limpieza de oídos",2026-02-16,2027-01-16,258,1
+143,"Antibiótico por 7 días",2026-04-03,,291,2
+144,"Dieta de control de peso",2026-09-02,2027-07-29,364,3
+145,"Limpieza de oídos",2026-03-12,,209,1
+146,"Antibiótico por 7 días",2026-01-15,2026-11-16,213,1
+147,"Antibiótico por 7 días",2026-01-16,,291,3
+148,"Curación de herida",2026-02-28,2027-01-02,112,2
+149,Antialérgico,2026-05-04,,140,2
+150,"Vacuna antirrábica",2026-08-12,,263,1
+151,Desparasitación,2026-10-11,,330,4
+152,"Limpieza de oídos",2026-09-15,,181,1
+153,Antialérgico,2026-04-07,2026-08-22,350,1
+154,Desparasitación,2026-08-03,2027-01-23,134,2
+155,"Antibiótico por 7 días",2026-01-11,,82,3
+156,"Vacuna antirrábica",2026-06-07,2026-06-24,28,2
+157,"Curación de herida",2026-07-04,,294,4
+158,"Vacuna antirrábica",2026-03-03,2026-11-02,208,2
+159,Antialérgico,2026-04-25,2026-11-11,167,3
+160,"Antibiótico por 7 días",2026-06-15,,198,2
+161,Antialérgico,2026-09-11,,202,1
+162,"Limpieza de oídos",2026-07-26,2027-02-10,225,1
+163,Desparasitación,2026-08-13,2026-10-30,328,1
+164,"Vacuna antirrábica",2026-08-22,,86,3
+165,"Vacuna antirrábica",2026-02-09,,159,1
+166,Desparasitación,2026-02-17,2026-07-28,396,1
+167,"Curación de herida",2026-04-26,,36,3
+168,"Curación de herida",2026-09-02,,228,1
+169,"Curación de herida",2026-03-05,,361,3
+170,"Dieta de control de peso",2026-07-08,,89,2
+171,Desparasitación,2026-03-01,2026-04-03,278,1
+172,"Vacuna antirrábica",2026-04-28,,39,3
+173,"Limpieza de oídos",2026-06-30,,335,2
+174,"Dieta de control de peso",2026-04-18,,199,1
+175,Desparasitación,2026-06-27,,90,2
+176,"Antibiótico por 7 días",2026-10-29,,270,6
+177,"Limpieza de oídos",2026-02-26,,125,2
+178,Antialérgico,2026-03-22,2026-06-16,229,3
+179,"Antibiótico por 7 días",2026-03-15,,96,4
+180,Desparasitación,2026-01-24,2026-03-19,221,1
+181,"Curación de herida",2026-02-21,2026-07-17,38,1
+182,Antialérgico,2026-01-18,2026-07-07,137,1
+183,"Vacuna antirrábica",2026-03-10,2026-10-14,75,3
+184,Desparasitación,2026-01-15,,327,4
+185,"Antibiótico por 7 días",2026-09-07,2026-12-30,309,2
+186,Desparasitación,2026-01-18,,97,1
+187,"Antibiótico por 7 días",2026-04-03,,19,1
+188,"Curación de herida",2026-06-30,,382,3
+189,"Vacuna antirrábica",2026-04-22,,286,3
+190,Antialérgico,2026-10-04,2027-09-09,170,1
+191,"Antibiótico por 7 días",2026-05-15,,265,2
+192,"Vacuna antirrábica",2026-07-02,2026-09-07,131,2
+193,"Dieta de control de peso",2026-01-27,2026-07-10,46,1
+194,"Vacuna antirrábica",2026-06-27,,197,2
+195,"Limpieza de oídos",2026-06-30,,388,1
+196,"Dieta de control de peso",2026-07-24,2026-10-23,325,2
+197,"Vacuna antirrábica",2026-06-21,2027-02-04,98,1
+198,"Dieta de control de peso",2026-04-01,,51,1
+199,"Vacuna antirrábica",2026-09-30,2027-02-21,7,4
+200,"Vacuna antirrábica",2026-06-15,2026-12-21,205,3
+201,"Vacuna antirrábica",2026-11-01,2027-03-10,146,2
+202,"Limpieza de oídos",2026-06-16,2026-10-27,367,2
+203,"Antibiótico por 7 días",2026-09-29,,128,2
+204,"Dieta de control de peso",2026-07-17,,153,1
+205,"Curación de herida",2026-03-29,,84,1
+206,"Dieta de control de peso",2026-07-06,,327,3
+207,"Dieta de control de peso",2026-07-09,,166,2
+208,"Vacuna antirrábica",2026-03-21,2026-12-27,242,1
+209,"Curación de herida",2026-09-25,,42,1
+210,"Antibiótico por 7 días",2026-05-28,2027-01-27,380,3
+211,"Dieta de control de peso",2026-10-25,2027-07-20,382,1
+212,"Limpieza de oídos",2026-07-30,2026-08-12,17,1
+213,"Dieta de control de peso",2026-02-26,2026-05-23,29,1
+214,"Antibiótico por 7 días",2026-06-07,2026-09-14,358,3
+215,Antialérgico,2026-06-27,,60,3
+216,"Antibiótico por 7 días",2026-05-22,,282,3
+217,"Curación de herida",2026-03-01,,283,1
+218,"Antibiótico por 7 días",2026-08-31,,390,1
+219,"Dieta de control de peso",2026-01-25,2026-11-12,113,2
+220,"Dieta de control de peso",2026-10-23,,339,1
+221,"Antibiótico por 7 días",2026-06-01,,298,1
+222,"Antibiótico por 7 días",2026-04-05,,246,3
+223,"Vacuna antirrábica",2026-06-05,2026-10-21,27,1
+224,"Antibiótico por 7 días",2026-03-24,,246,4
+225,"Curación de herida",2026-02-14,2026-10-16,287,3
+226,Desparasitación,2026-06-28,2027-01-10,313,1
+227,"Limpieza de oídos",2026-06-12,,369,3
+228,"Limpieza de oídos",2026-05-30,2026-08-03,192,1
+229,"Limpieza de oídos",2026-01-17,,101,1
+230,"Dieta de control de peso",2026-10-31,,85,2
+231,"Curación de herida",2026-04-15,2027-01-10,258,2
+232,"Antibiótico por 7 días",2026-05-22,2027-03-26,276,1
+233,"Curación de herida",2026-03-11,,82,2
+234,"Dieta de control de peso",2026-07-30,,176,1
+235,"Limpieza de oídos",2026-04-05,,236,2
+236,Antialérgico,2026-09-12,,253,2
+237,"Curación de herida",2026-01-29,,211,1
+238,"Vacuna antirrábica",2026-01-24,2026-08-12,166,1
+239,Desparasitación,2026-02-25,,1,1
+240,Antialérgico,2026-08-04,,201,1
+241,"Dieta de control de peso",2026-05-16,2026-12-28,50,2
+242,Desparasitación,2026-07-18,,343,3
+243,"Dieta de control de peso",2026-04-22,,185,3
+244,"Dieta de control de peso",2026-07-10,,71,2
+245,"Curación de herida",2026-08-22,,282,6
+246,Desparasitación,2026-07-13,2026-09-06,268,2
+247,"Limpieza de oídos",2026-01-24,2026-05-19,376,2
+248,"Vacuna antirrábica",2026-09-26,,273,1
+249,"Limpieza de oídos",2026-09-08,,158,4
+250,"Vacuna antirrábica",2026-08-24,2026-08-31,368,1
+251,"Antibiótico por 7 días",2026-04-01,,154,1
+252,"Antibiótico por 7 días",2026-04-01,,212,2
+253,"Dieta de control de peso",2026-08-09,,167,1
+254,"Dieta de control de peso",2026-02-04,,7,1
+255,"Dieta de control de peso",2026-05-31,2026-12-11,295,1
+256,"Vacuna antirrábica",2026-05-09,,258,4
+257,"Dieta de control de peso",2026-07-27,2026-12-13,96,5
+258,"Dieta de control de peso",2026-01-12,,356,2
+259,"Antibiótico por 7 días",2026-04-13,2026-09-21,146,1
+260,"Vacuna antirrábica",2026-10-03,2027-04-26,365,1
+261,"Vacuna antirrábica",2026-07-12,,28,1
+262,"Curación de herida",2026-03-03,2026-11-23,331,1
+263,"Limpieza de oídos",2026-02-17,,110,2
+264,"Curación de herida",2026-05-10,2027-04-24,382,4
+265,Antialérgico,2026-10-02,,259,2
+266,"Vacuna antirrábica",2026-08-29,2027-03-08,14,5
+267,"Dieta de control de peso",2026-03-08,,225,2
+268,"Antibiótico por 7 días",2026-06-13,2027-04-21,115,1
+269,"Dieta de control de peso",2026-08-13,2027-06-05,78,2
+270,Desparasitación,2026-06-25,2027-05-21,86,1
+271,"Vacuna antirrábica",2026-05-06,,144,3
+272,"Antibiótico por 7 días",2026-06-21,2026-12-28,254,1
+273,"Antibiótico por 7 días",2026-03-20,2026-12-19,292,3
+274,Desparasitación,2026-01-16,,68,1
+275,Desparasitación,2026-03-02,,112,1
+276,"Vacuna antirrábica",2026-04-21,,137,3
+277,"Antibiótico por 7 días",2026-08-12,,309,1
+278,"Curación de herida",2026-02-28,2026-05-26,282,1
+279,"Limpieza de oídos",2026-09-09,2026-12-08,182,1
+280,"Antibiótico por 7 días",2026-02-23,,120,2
+281,Desparasitación,2026-09-13,2027-06-06,333,1
+282,"Antibiótico por 7 días",2026-02-23,2026-06-20,243,2
+283,"Antibiótico por 7 días",2026-02-04,2026-07-18,270,2
+284,"Dieta de control de peso",2026-07-25,2027-04-17,26,1
+285,"Dieta de control de peso",2026-05-11,,55,1
+286,"Antibiótico por 7 días",2026-10-12,2027-01-10,131,1
+287,Antialérgico,2026-02-18,2026-10-26,198,1
+288,"Vacuna antirrábica",2026-09-23,,34,1
+289,"Vacuna antirrábica",2026-09-03,,216,1
+290,"Antibiótico por 7 días",2026-02-20,,185,2
+291,"Dieta de control de peso",2026-01-30,2026-07-07,102,2
+292,"Vacuna antirrábica",2026-02-26,2026-08-22,380,2
+293,"Antibiótico por 7 días",2026-06-21,,167,2
+294,"Curación de herida",2026-03-01,2026-08-13,225,3
+295,"Limpieza de oídos",2026-03-11,,122,3
+296,"Limpieza de oídos",2026-04-13,2027-02-17,226,2
+297,Desparasitación,2026-01-15,2026-08-09,264,2
+298,"Antibiótico por 7 días",2026-03-31,,285,1
+299,"Antibiótico por 7 días",2026-04-29,2026-09-16,270,4
+300,"Curación de herida",2026-07-04,,400,2
