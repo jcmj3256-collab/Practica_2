@@ -1,0 +1,117 @@
+group: Clinica veterinaria (muestra)
+description[[ Muestra generada por exportar-grupo.sql desde la base de la clinica. No editar a mano. ]]
+
+dueno = { codigo_dueno:number, nombre:string, apellidos:string, correo:string, telefono:string, direccion:string
+1, 'Miguel', 'López Ortiz', 'miguel.lopez1@example.com', '5574506342', 'Calle Morelos 618, Col. Lindavista, CDMX'
+2, 'Óscar', 'Gómez Mendoza', 'oscar.gomez2@example.com', '5597645345', 'Calle Juárez 917, Col. Narvarte, CDMX'
+3, 'Fernanda', 'Sánchez García', 'fernanda.sanchez3@example.com', '5569663453', 'Calle Hidalgo 901, Col. Santa María la Ribera, CDMX'
+21, 'Daniela', 'Morales Reyes', 'daniela.morales21@example.com', '5516346569', 'Av. Reforma 844, Col. Coyoacán, CDMX'
+29, 'Carlos', 'Hernández Flores', 'carlos.hernandez29@example.com', '5540649317', 'Calle Madero 399, Col. Iztapalapa, CDMX'
+44, 'Jorge', 'Castillo Díaz', 'jorge.castillo44@example.com', '5534455648', 'Calle Morelos 625, Col. Centro, CDMX'
+49, 'Fernanda', 'Cruz Jiménez', 'fernanda.cruz49@example.com', '5516000985', 'Av. Universidad 923, Col. Condesa, CDMX'
+63, 'Carlos', 'Cruz Vázquez', 'carlos.cruz63@example.com', '5593908610', 'Av. Universidad 226, Col. Roma Norte, CDMX'
+65, 'Pablo', 'López Martínez', 'pablo.lopez65@example.com', '5549598735', 'Calle Morelos 94, Col. Polanco, CDMX'
+69, 'Ricardo', 'López Mendoza', 'ricardo.lopez69@example.com', '5576382057', 'Calle Hidalgo 294, Col. Condesa, CDMX'
+72, 'Fernanda', 'Martínez Cruz', 'fernanda.martinez72@example.com', '5573778225', 'Calle Hidalgo 437, Col. Iztapalapa, CDMX'
+79, 'Paola', 'Aguilar Pérez', 'paola.aguilar79@example.com', '5537085520', 'Calle Hidalgo 56, Col. Narvarte, CDMX'
+86, 'Fernanda', 'Torres Hernández', 'fernanda.torres86@example.com', '5590970601', 'Av. Insurgentes 611, Col. Roma Norte, CDMX'
+87, 'Pablo', 'Reyes Martínez', 'pablo.reyes87@example.com', '5574292503', 'Av. Reforma 961, Col. Iztapalapa, CDMX'
+101, 'Ricardo', 'Vázquez Gutiérrez', 'ricardo.vazquez101@example.com', '5580523789', 'Av. Universidad 476, Col. Condesa, CDMX'
+131, 'Sergio', 'Flores Vázquez', 'sergio.flores131@example.com', '5555127469', 'Av. Universidad 355, Col. Roma Norte, CDMX'
+132, 'Óscar', 'Sánchez Torres', 'oscar.sanchez132@example.com', '5573476273', 'Calle Morelos 237, Col. Iztapalapa, CDMX'
+138, 'Héctor', 'Castillo Castillo', 'hector.castillo138@example.com', '5532283484', 'Calle Hidalgo 169, Col. Santa María la Ribera, CDMX'
+154, 'Jorge', 'Ortiz Díaz', 'jorge.ortiz154@example.com', '5551696016', 'Av. Universidad 74, Col. Roma Norte, CDMX'
+158, 'Paola', 'González Mendoza', 'paola.gonzalez158@example.com', '5522490841', 'Av. Reforma 448, Col. Santa María la Ribera, CDMX'
+167, 'Paola', 'Aguilar Morales', 'paola.aguilar167@example.com', '5598332801', 'Calle Juárez 879, Col. Iztapalapa, CDMX'
+174, 'Diego', 'Pérez Gutiérrez', 'diego.perez174@example.com', '5534844470', 'Calle Juárez 479, Col. Lindavista, CDMX'
+176, 'Emilio', 'Ramírez Vázquez', 'emilio.ramirez176@example.com', '5511558778', 'Av. Reforma 342, Col. Narvarte, CDMX'
+}
+
+mascota = { codigo_mascota:number, nombre:string, especie:string, raza:string, edad:number, sexo:string, notas:string, color_pelaje:string, peso_ideal:number, codigo_dueno:number
+1, 'Phoebe', 'Perro', 'Welsh Corgi, Pembroke', 14, 'H', null, null, 31, 65
+2, 'Maple', 'Perro', 'Poodle, Standard', 5, 'H', null, null, 45, 29
+3, 'Neko', 'Perro', 'Siberian Husky', 8, 'M', null, null, 23, 101
+4, 'Lenny', 'Perro', 'Retriever, Golden', 5, 'H', null, null, 26, 49
+5, 'Sadie', 'Perro', 'Shepherd', 16, 'H', null, null, 19, 69
+6, 'Memphis', 'Perro', 'Retriever, Golden', 0, 'H', null, null, 7, 176
+7, 'Maude', 'Perro', 'Mixed Breed, Medium (up to 44 lbs fully grown)', 13, 'M', null, null, 11, 167
+8, 'Yukon', 'Perro', 'Bulldog, American', 12, 'M', null, null, 32, 154
+9, 'Captain', 'Perro', 'Mixed Breed, Small (under 24 lbs fully grown)', 18, 'M', null, null, 17, 158
+31, 'Molly', 'Perro', 'Mixed Breed, Medium (up to 44 lbs fully grown)', 13, 'H', null, null, 43, 63
+41, 'Josie', 'Perro', 'Retriever, Nova Scotia Duck Tolling', 1, 'M', null, null, 39, 132
+51, 'Inari', 'Perro', 'Mixed Breed, Medium (up to 44 lbs fully grown)', 17, 'M', null, null, 21, 87
+76, 'Memphis', 'Perro', 'Australian Shepherd, Miniature', 11, 'H', null, null, 20, 44
+132, 'Tucker', 'Perro', 'Bichon Frise', 7, 'M', null, null, 38, 131
+248, 'Blanket', 'Gato', 'Domestic Shorthair', 12, 'M', null, 'Atigrado', null, 86
+275, 'Talia', 'Gato', 'American Shorthair', 4, 'H', null, 'Gris', null, 174
+284, 'Cinna', 'Gato', 'Domestic Medium Hair', 18, 'M', null, 'Carey', null, 138
+301, 'Lorenzo', 'Gato', 'Domestic Shorthair', 8, 'M', null, 'Carey', null, 21
+391, 'Smokey', 'Gato', 'Siamese', 3, 'H', null, 'Carey', null, 79
+393, 'Boo', 'Gato', 'Norwegian Forest', 0, 'H', null, 'Naranja', null, 72
+}
+
+veterinario = { codigo_veterinario:number, nombre:string, apellidos:string, num_certificado:string, es_dermatologo:boolean, num_pacientes:number, es_cirujano:boolean, num_cirugias:number
+1, 'Iván', 'Vázquez Pérez', 'CED-1000037', false, null, true, 271
+2, 'Renata', 'Díaz Cruz', 'CED-1000074', false, null, false, null
+3, 'Emilio', 'Cruz González', 'CED-1000111', false, null, false, null
+4, 'Renata', 'Cruz Ramírez', 'CED-1000148', false, null, false, null
+5, 'Fernanda', 'Reyes Cruz', 'CED-1000185', false, null, false, null
+6, 'Valeria', 'Morales Morales', 'CED-1000222', false, null, true, 99
+7, 'Ricardo', 'Aguilar Ramírez', 'CED-1000259', true, 363, false, null
+8, 'Carlos', 'Rodríguez Ruiz', 'CED-1000296', false, null, false, null
+9, 'Elena', 'Hernández Ramírez', 'CED-1000333', true, 130, false, null
+10, 'Paola', 'Hernández Castillo', 'CED-1000370', false, null, false, null
+11, 'Renata', 'Morales Aguilar', 'CED-1000407', true, 390, true, 40
+12, 'Ana', 'Ortiz Gutiérrez', 'CED-1000444', false, null, false, null
+13, 'Sergio', 'Ruiz Ramírez', 'CED-1000481', true, 186, true, 2
+14, 'Sergio', 'Aguilar Flores', 'CED-1000518', false, null, false, null
+15, 'Iván', 'López Mendoza', 'CED-1000555', false, null, true, 147
+16, 'Gabriela', 'Gutiérrez López', 'CED-1000592', false, null, false, null
+17, 'Jorge', 'Jiménez Morales', 'CED-1000629', true, 395, false, null
+18, 'Raúl', 'González Reyes', 'CED-1000666', false, null, false, null
+19, 'Ricardo', 'Ortiz Martínez', 'CED-1000703', true, 205, true, 226
+}
+
+cita = { codigo_mascota:number, codigo_cita:number, fecha:date, hora:string, notas:string, diagnostico:string, codigo_veterinario:number
+1, 1, 2026-02-25, '17:30', null, 'Control de peso', 12
+3, 1, 2026-08-22, '15:00', null, 'Control de peso', 13
+3, 2, 2026-04-11, '19:00', 'Revisión anual', null, 1
+4, 1, 2026-05-19, '12:30', null, null, 15
+4, 2, 2026-04-10, '10:30', null, 'Otitis leve', 14
+4, 3, 2026-02-19, '08:00', null, 'Desparasitación al día', 3
+5, 1, 2026-02-26, '16:00', null, null, 14
+5, 2, 2026-08-19, '12:00', null, null, 14
+6, 1, 2026-05-16, '18:00', 'Revisión anual', null, 4
+6, 2, 2026-10-22, '14:00', 'Revisión anual', 'Revisión general sin hallazgos', 12
+6, 3, 2026-02-10, '11:00', null, 'Control de peso', 18
+7, 1, 2026-02-04, '19:30', null, 'Desparasitación al día', 11
+7, 2, 2026-08-21, '16:30', null, null, 13
+7, 3, 2026-09-24, '17:30', null, null, 15
+31, 2, 2026-06-27, '14:00', null, 'Desparasitación al día', 5
+41, 1, 2026-10-09, '17:30', null, null, 4
+51, 2, 2026-05-19, '11:30', null, 'Dermatitis alérgica', 10
+76, 2, 2026-08-02, '18:00', 'Revisión anual', 'Desparasitación al día', 10
+132, 2, 2026-06-08, '09:00', null, 'Revisión general sin hallazgos', 9
+248, 1, 2026-07-05, '14:30', null, 'Otitis leve', 16
+275, 2, 2026-09-10, '08:30', 'Revisión anual', 'Dermatitis alérgica', 19
+284, 3, 2026-09-06, '18:30', 'Revisión anual', 'Dermatitis alérgica', 7
+301, 2, 2026-04-10, '15:00', 'Revisión anual', 'Revisión general sin hallazgos', 17
+301, 4, 2026-09-08, '18:30', null, 'Gastroenteritis', 15
+391, 2, 2026-10-16, '18:30', 'Revisión anual', null, 16
+393, 3, 2026-09-03, '15:30', null, 'Control de peso', 4
+}
+
+tratamiento = { codigo_tratamiento:number, descripcion:string, fecha_tratamiento:date, fecha_vencimiento:date, codigo_mascota:number, codigo_cita:number
+1, 'Antialérgico', 2026-05-19, 2026-10-02, 51, 2
+2, 'Limpieza de oídos', 2026-09-06, null, 284, 3
+3, 'Antibiótico por 7 días', 2026-10-16, null, 391, 2
+4, 'Curación de herida', 2026-06-08, null, 132, 2
+5, 'Desparasitación', 2026-09-10, 2027-04-26, 275, 2
+6, 'Antibiótico por 7 días', 2026-04-10, null, 301, 2
+7, 'Curación de herida', 2026-07-05, null, 248, 1
+8, 'Limpieza de oídos', 2026-08-02, 2026-11-14, 76, 2
+9, 'Vacuna antirrábica', 2026-09-08, null, 301, 4
+10, 'Antialérgico', 2026-09-03, null, 393, 3
+11, 'Desparasitación', 2026-10-09, 2027-09-02, 41, 1
+12, 'Vacuna antirrábica', 2026-06-27, 2026-07-11, 31, 2
+}
