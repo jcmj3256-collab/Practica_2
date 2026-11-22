@@ -21,11 +21,11 @@ Las cuatro pautas: **(S)** semántica clara, **(A)** sin anomalías, **(N)** poc
 
 | Tabla | «Cada fila es…» | S | A | N | E |
 |---|---|---|---|---|---|
-| `dueno` | una persona responsable de una o más mascotas de la clínica | ✅ | ✅ | ✅ ningún atributo admite nulo | ✅ |
-| `mascota` | un animal registrado en la clínica | ⚠️ mezcla datos de dos subtipos | ✅ | ❌ **falla** | ✅ |
-| `veterinario` | un profesional con cédula que trabaja en la clínica | ⚠️ mezcla datos de dos especialidades | ✅ | ❌ **falla** | ✅ |
-| `cita` | una consulta de una mascota con un veterinario, en una fecha y hora | ✅ | ✅ | ⚠️ notas/diagnóstico opcionales | ✅ |
-| `tratamiento` | un tratamiento recetado dentro de una cita | ✅ | ✅ | ⚠️ `fecha_vencimiento` opcional | ✅ |
+| `dueno` | una persona responsable de una o más mascotas de la clínica | Cumple | Cumple | Cumple (ningún atributo admite nulo) | Cumple |
+| `mascota` | un animal registrado en la clínica | Parcial, mezcla datos de dos subtipos | Cumple | **Falla** | Cumple |
+| `veterinario` | un profesional con cédula que trabaja en la clínica | Parcial, mezcla datos de dos especialidades | Cumple | **Falla** | Cumple |
+| `cita` | una consulta de una mascota con un veterinario, en una fecha y hora | Cumple | Cumple | Parcial, notas/diagnóstico opcionales | Cumple |
+| `tratamiento` | un tratamiento recetado dentro de una cita | Cumple | Cumple | Parcial, `fecha_vencimiento` opcional | Cumple |
 
 **Dónde falla y por qué**
 
@@ -190,9 +190,9 @@ Es la «ficha de cita» de una hoja de cálculo de una clínica anterior: cada f
 
 **Forma normal actual: 1FN.**
 
-- **1FN ✅**: valores atómicos y tiene llave.
-- **2FN ❌**: L2 depende solo de **cód_mascota**, parte de la llave {cód_mascota, cód_cita} (dependencia parcial). Lo mismo L5: cód_vet es solo parte de la llave {cód_vet, fecha, hora}.
-- **3FN ❌**: L3 es transitiva: (cód_mascota, cód_cita) → cód_mascota → cód_dueño → nombre_dueño, … (cód_dueño no es llave y los datos del dueño no son atributos primos).
+- **1FN: cumple**: valores atómicos y tiene llave.
+- **2FN: no cumple**: L2 depende solo de **cód_mascota**, parte de la llave {cód_mascota, cód_cita} (dependencia parcial). Lo mismo L5: cód_vet es solo parte de la llave {cód_vet, fecha, hora}.
+- **3FN: no cumple**: L3 es transitiva: (cód_mascota, cód_cita) → cód_mascota → cód_dueño → nombre_dueño, … (cód_dueño no es llave y los datos del dueño no son atributos primos).
 
 ### 1.3.3 Normalización paso a paso
 
@@ -200,18 +200,18 @@ Cada paso elimina **una** dependencia y se verifica con la prueba de reunión si
 
 | Paso | Dependencia que se elimina | Descomposición | Atributos comunes | ¿Reunión sin pérdida? |
 |---|---|---|---|---|
-| 1 | L2 (parcial) | **R_a** = {cód_mascota}⁺ (10 atributos) y **R_b** = ficha − (R_a − cód_mascota) | cód_mascota | ✅ cód_mascota es llave de R_a |
-| 2 | L5 (parcial) | de R_b: **R4** = {cód_vet}⁺ = (cód_vet, nombre_vet, apellidos_vet, num_certificado) y **R1** = (cód_mascota, cód_cita, fecha, hora, diagnóstico, cód_vet) | cód_vet | ✅ llave de R4 |
-| 3 | L3 (transitiva) | de R_a: **R3** = {cód_dueño}⁺ = (cód_dueño, nombre_dueño, apellidos_dueño, correo_dueño, teléfono_dueño, dirección_dueño) y **R2** = (cód_mascota, nombre_mascota, especie, sexo, cód_dueño) | cód_dueño | ✅ llave de R3 |
+| 1 | L2 (parcial) | **R_a** = {cód_mascota}⁺ (10 atributos) y **R_b** = ficha − (R_a − cód_mascota) | cód_mascota | Sí, cód_mascota es llave de R_a |
+| 2 | L5 (parcial) | de R_b: **R4** = {cód_vet}⁺ = (cód_vet, nombre_vet, apellidos_vet, num_certificado) y **R1** = (cód_mascota, cód_cita, fecha, hora, diagnóstico, cód_vet) | cód_vet | Sí, llave de R4 |
+| 3 | L3 (transitiva) | de R_a: **R3** = {cód_dueño}⁺ = (cód_dueño, nombre_dueño, apellidos_dueño, correo_dueño, teléfono_dueño, dirección_dueño) y **R2** = (cód_mascota, nombre_mascota, especie, sexo, cód_dueño) | cód_dueño | Sí, llave de R3 |
 
 **Resultado: R1 … R4, que son exactamente las tablas `cita`, `mascota`, `dueno` y `veterinario`.** O sea: el esquema real es lo que se obtiene al normalizar la ficha.
 
 | Relación | Atributos | Llaves candidatas | Determinantes | BCNF |
 |---|---|---|---|---|
-| R1 `cita` | cód_mascota, cód_cita, fecha, hora, diagnóstico, cód_vet | {cód_mascota, cód_cita}, {cód_vet, fecha, hora} | L1, L7 | ✅ |
-| R2 `mascota` | cód_mascota, nombre, especie, sexo, cód_dueño | {cód_mascota} | L2 | ✅ |
-| R3 `dueno` | cód_dueño, nombre, apellidos, correo, teléfono, dirección | {cód_dueño}, {correo} | L3, L4 | ✅ |
-| R4 `veterinario` | cód_vet, nombre, apellidos, num_certificado | {cód_vet}, {num_certificado} | L5, L6 | ✅ |
+| R1 `cita` | cód_mascota, cód_cita, fecha, hora, diagnóstico, cód_vet | {cód_mascota, cód_cita}, {cód_vet, fecha, hora} | L1, L7 | Cumple |
+| R2 `mascota` | cód_mascota, nombre, especie, sexo, cód_dueño | {cód_mascota} | L2 | Cumple |
+| R3 `dueno` | cód_dueño, nombre, apellidos, correo, teléfono, dirección | {cód_dueño}, {correo} | L3, L4 | Cumple |
+| R4 `veterinario` | cód_vet, nombre, apellidos, num_certificado | {cód_vet}, {num_certificado} | L5, L6 | Cumple |
 
 **Preservación de dependencias.** L1 y L7 quedan dentro de R1; L2 en R2; L3 y L4 en R3; L5 y L6 en R4. **Las 7 se conservan sin tener que calcular cierres** (cada una cabe completa en algún pedazo).
 
